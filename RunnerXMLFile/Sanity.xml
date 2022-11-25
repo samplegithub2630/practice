@@ -1,0 +1,21 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  
+  <run>
+  
+  <include name="sanity"/>
+  
+  </run>
+  </groups>
+    <classes>
+     
+      <class name="com.Grouping.Mobile"/>
+      
+      <class name="com.Grouping.Laptop"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

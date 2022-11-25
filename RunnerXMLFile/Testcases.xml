@@ -1,0 +1,22 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Grouping.Mobile">
+      <methods>
+      <include name="realme"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.Grouping.Laptop">
+      <methods>
+      <include name="lenovo"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
